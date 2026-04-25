@@ -100,6 +100,10 @@ Visual Sections:
 
 The dashboard enables quick identification of trends, risks, and opportunities.
 
+[![Watch the video](https://img.youtube.com/vi/6ubQpkBS7C4/maxresdefault.jpg)](https://youtu.be/6ubQpkBS7C4)
+
+### [Watch Dashboard video on YouTube](https://youtu.be/6ubQpkBS7C4)
+
 8. Business Recommendations
 📉 Improve Revenue Performance
 Re-evaluate pricing strategy
