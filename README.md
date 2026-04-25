@@ -1,6 +1,5 @@
 🧠 PsyMind Clinic – Client Behavior & Revenue Analysis
 1. Project Overview
-
 This project analyzes client behavior, service usage, and revenue trends for a growing mental health clinic, PsyMind Clinic.
 
 The goal was to transform raw operational data into actionable business insights that support better decision-making, improved revenue strategies, and sustainable growth.
