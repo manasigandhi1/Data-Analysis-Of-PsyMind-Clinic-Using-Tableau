@@ -12,31 +12,33 @@ The analysis focuses on understanding client acquisition, demand patterns, and f
 Despite stable session volumes, the clinic faced a decline in revenue, raising concerns about long-term sustainability.
 
 Key questions addressed:
+  Which channels bring the most clients?
+  What mental health issues drive demand?
+  Why is revenue declining?
+  Which psychologists contribute most to revenue?
+  How do client preferences vary across age groups?
+  Which segments should be prioritized for growth?
 
-Which channels bring the most clients?
-What mental health issues drive demand?
-Why is revenue declining?
-Which psychologists contribute most to revenue?
-How do client preferences vary across age groups?
-Which segments should be prioritized for growth?
 3. Dataset Description
-
 The dataset represents real-world clinic operations data:
 
-~500 clients
-~7,000 sessions
-Time Period: 2022–2024
+  ~500 clients
+  ~7,000 sessions
+  Time Period: 2022–2024
+
 Key Data Fields:
 Client demographics (Age, referral source)
 Session details (Count, mode: online/offline)
 Revenue data (session-level aggregation)
 Psychologist performance
 Mental health issue categories
+
 4. Tools & Technologies Used
 SQL – Data extraction and analysis
 Excel – Data cleaning and preprocessing
 Tableau / Power BI – Dashboard creation and visualization
-5. Data Cleaning & Preparation
+
+6. Data Cleaning & Preparation
 
 Data was pre-processed to ensure accuracy and consistency:
 
@@ -54,42 +56,48 @@ Lower session pricing
 Reduced repeat visits
 Change in client mix
 Business Impact: Immediate threat to profitability
+
 🏥 2. Doctor Referrals Drive Maximum Clients
 Highest client acquisition comes from doctor referrals
 Trust-based ecosystem plays a major role
 Opportunity: Scale partnerships with healthcare providers
+
 📈 3. Digital Channels Are Underutilized
 Google and Instagram contribute significantly but are not optimized
 Opportunity: High ROI potential through digital marketing
+
 🧩 4. Demand Concentrated Around Key Issues
 Top concerns:
-Depression
-Anxiety
-Work Stress
+  Depression
+  Anxiety
+  Work Stress
 Insight: Strong opportunity for specialized therapy programs
+
 👥 5. Age-Based Behavioral Patterns
 Younger clients → balanced online/offline preference
 Older clients → strong preference for offline sessions
-Insight: One-size-fits-all model will not work
+Insight: A one-size-fits-all model will not work
+
 💰 6. Revenue Distribution is Balanced
 Revenue is evenly distributed across psychologists
 Insight: Reduced dependency risk, stable operations
+
 7. Dashboard / Visualization
 
 An interactive dashboard was built to support executive-level decision-making.
 
 Dashboard Highlights:
 KPI Summary:
-Total Clients: 500
-Total Sessions: 6,982
-Total Revenue: ₹17.5M
-Avg Age: 33
+  Total Clients: 500
+  Total Sessions: 6,982
+  Total Revenue: ₹17.5M
+  Avg Age: 33
 Visual Sections:
-Referral source distribution
-Revenue trend over time
-Top mental health issues
-Session mode by age group
-Revenue contribution by psychologist
+  Referral source distribution
+  Revenue trend over time
+  Top mental health issues
+  Session mode by age group
+  Revenue contribution by a psychologist
 
 The dashboard enables quick identification of trends, risks, and opportunities.
 
@@ -110,8 +118,8 @@ Group therapy sessions
 🔄 Strengthen Hybrid Model
 Maintain strong offline services for older clients
 Enhance online experience for younger users
-9. Impact / Value
 
+9. Impact / Value
 This analysis helps the clinic:
 
 Identify revenue leakage and growth risks
@@ -121,14 +129,12 @@ Enable data-driven strategic planning
 
 ➡️ Moves the business from reactive decisions → proactive growth strategy
 
-10. How to Use This Project
-
-For recruiters and viewers:
+10. How to Use This Project for viewers:
 
 Review the dashboard to understand key insights
-Explore SQL queries (if included) for analysis logic
 Focus on how insights translate into business decisions
-11. Future Improvements
+
+11. Future Improvements Scope:
 Add customer lifetime value (CLV) analysis
 Build predictive models for client retention
 Incorporate feedback/satisfaction data
