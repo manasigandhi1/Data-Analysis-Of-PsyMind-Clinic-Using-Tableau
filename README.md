@@ -1,144 +1,218 @@
-🧠 PsyMind Clinic – Client Behavior & Revenue Analysis
-1. Project Overview
-This project analyzes client behavior, service usage, and revenue trends for a growing mental health clinic, PsyMind Clinic.
+# 🧠 PsyMind Clinic – Client Behavior & Revenue Analysis
 
-The goal was to transform raw operational data into actionable business insights that support better decision-making, improved revenue strategies, and sustainable growth.
+## 📌 Project Overview
 
-The analysis focuses on understanding client acquisition, demand patterns, and financial performance in a competitive wellness industry.
+Developed an interactive analytics project for PsyMind Clinic to analyze client behavior, therapy demand, referral performance, and revenue trends across multiple years.
 
-2. Business Problem / Objective
+The project transforms operational clinic data into actionable business insights that support strategic decision-making, revenue optimization, and long-term growth planning.
 
-Despite stable session volumes, the clinic faced a decline in revenue, raising concerns about long-term sustainability.
+The analysis focuses on understanding client acquisition channels, therapy demand patterns, psychologist performance, and financial sustainability in the mental health and wellness industry.
 
-Key questions addressed:
-  Which channels bring the most clients?
-  What mental health issues drive demand?
-  Why is revenue declining?
-  Which psychologists contribute most to revenue?
-  How do client preferences vary across age groups?
-  Which segments should be prioritized for growth?
+[![Dashboard Preview](https://img.youtube.com/vi/6ubQpkBS7C4/maxresdefault.jpg)](https://youtu.be/6ubQpkBS7C4)
 
-3. Dataset Description
-The dataset represents real-world clinic operations data:
+---
 
-  ~500 clients
-  ~7,000 sessions
-  Time Period: 2022–2024
+## 🎯 Business Problem / Objective
 
-Key Data Fields:
-Client demographics (Age, referral source)
-Session details (Count, mode: online/offline)
-Revenue data (session-level aggregation)
-Psychologist performance
-Mental health issue categories
+Despite stable therapy session volumes, the clinic experienced a noticeable decline in revenue, raising concerns about profitability and business sustainability.
 
-4. Tools & Technologies Used
-SQL – Data extraction and analysis
-Excel – Data cleaning and preprocessing
-Tableau / Power BI – Dashboard creation and visualization
+The business wanted to understand:
 
-6. Data Cleaning & Preparation
+- Which referral channels bring the most clients?
+- What mental health issues drive the highest demand?
+- Why is revenue declining despite stable sessions?
+- Which psychologists contribute most to revenue?
+- How do client preferences differ across age groups?
+- Which client segments should be prioritized for growth?
 
-Data was pre-processed to ensure accuracy and consistency:
+This project was designed to provide data-driven insights for improving revenue strategy, service planning, and customer acquisition.
 
-Standardized referral sources (e.g., “Google” vs “Google Search”)
-Cleaned and formatted date fields for trend analysis
-Ensured consistency between session counts and revenue metrics
+---
 
-These steps ensured reliable KPIs and trustworthy insights.
+## 📊 Dataset Description
 
-6. Key Analysis & Insights (Most Important)
-🔻 1. Revenue Decline Despite Stable Demand
-Revenue dropped significantly in 2024 despite steady session volume
-Indicates issues like:
-Lower session pricing
-Reduced repeat visits
-Change in client mix
-Business Impact: Immediate threat to profitability
+- **Clients:** ~500
+- **Sessions:** ~7,000
+- **Time Period:** 2022–2024
+- **Data Type:** Clinic operations, therapy sessions, and revenue data
 
-🏥 2. Doctor Referrals Drive Maximum Clients
-Highest client acquisition comes from doctor referrals
-Trust-based ecosystem plays a major role
-Opportunity: Scale partnerships with healthcare providers
+### Key Data Fields
 
-📈 3. Digital Channels Are Underutilized
-Google and Instagram contribute significantly but are not optimized
-Opportunity: High ROI potential through digital marketing
+- Client Age
+- Referral Source
+- Session Count
+- Session Mode (Online / Offline)
+- Revenue Metrics
+- Psychologist Performance
+- Mental Health Issue Categories
 
-🧩 4. Demand Concentrated Around Key Issues
-Top concerns:
-  Depression
-  Anxiety
-  Work Stress
-Insight: Strong opportunity for specialized therapy programs
+---
 
-👥 5. Age-Based Behavioral Patterns
-Younger clients → balanced online/offline preference
-Older clients → strong preference for offline sessions
-Insight: A one-size-fits-all model will not work
+## 🛠️ Tools & Technologies Used
 
-💰 6. Revenue Distribution is Balanced
-Revenue is evenly distributed across psychologists
-Insight: Reduced dependency risk, stable operations
+- **SQL** → Data extraction and analysis
+- **Excel** → Data cleaning and preprocessing
+- **Tableau / Power BI** → Dashboard creation and visualization
 
-7. Dashboard / Visualization
+---
 
-An interactive dashboard was built to support executive-level decision-making.
+## 🧹 Data Cleaning & Preparation
 
-Dashboard Highlights:
-KPI Summary:
-  Total Clients: 500
-  Total Sessions: 6,982
-  Total Revenue: ₹17.5M
-  Avg Age: 33
-Visual Sections:
-  Referral source distribution
-  Revenue trend over time
-  Top mental health issues
-  Session mode by age group
-  Revenue contribution by a psychologist
+Performed preprocessing and validation steps before analysis:
 
-The dashboard enables quick identification of trends, risks, and opportunities.
+- Standardized referral source names (e.g., “Google” vs “Google Search”)
+- Cleaned and formatted date fields for trend analysis
+- Verified consistency between session counts and revenue metrics
+- Structured the dataset for dashboard reporting and KPI tracking
 
-[![Watch the video](https://img.youtube.com/vi/6ubQpkBS7C4/maxresdefault.jpg)](https://youtu.be/6ubQpkBS7C4)
+These steps ensured accurate reporting and reliable business insights.
 
-### [Watch Dashboard video on YouTube](https://youtu.be/6ubQpkBS7C4)
+---
 
-8. Business Recommendations
-📉 Improve Revenue Performance
-Re-evaluate pricing strategy
-Increase repeat session engagement
-🤝 Expand Doctor Referral Network
-Build partnerships with hospitals and clinics
-Introduce referral incentives
-📊 Invest in Digital Marketing
-Optimize SEO and paid campaigns
-Target younger audiences via Instagram
-🧠 Launch Specialized Programs
-Anxiety and depression-focused therapy
-Workplace stress management workshops
-Group therapy sessions
-🔄 Strengthen Hybrid Model
-Maintain strong offline services for older clients
-Enhance online experience for younger users
+## 📈 Dashboard Features
 
-9. Impact / Value
+### KPI Summary
+
+The dashboard provides quick business metrics including:
+
+- Total Clients
+- Total Sessions
+- Total Revenue
+- Average Client Age
+
+### Interactive Analysis
+
+- Referral source performance analysis
+- Revenue trend tracking over time
+- Mental health issue distribution
+- Session mode preference by age group
+- Psychologist-wise revenue contribution
+- Client demographic analysis
+
+### Visualizations Included
+
+- KPI Cards
+- Revenue Trend Charts
+- Referral Source Analysis
+- Session Mode Comparison
+- Mental Health Issue Breakdown
+- Psychologist Performance Charts
+- Interactive Filters and Slicers
+
+---
+
+## 🔍 Key Insights
+
+### 🔻 Revenue Decline Despite Stable Demand
+
+- Revenue declined significantly during 2024 despite relatively stable session volume
+- Indicates possible issues such as:
+  - Lower session pricing
+  - Reduced repeat visits
+  - Shift in client mix
+- Highlights a direct threat to long-term profitability
+
+### 🏥 Doctor Referrals Drive Maximum Clients
+
+- Doctor referrals contribute the highest number of client acquisitions
+- Indicates strong dependence on trust-based healthcare networks
+- Reveals opportunities to strengthen referral partnerships
+
+### 📈 Digital Channels Are Underutilized
+
+- Google and Instagram contribute a meaningful share of clients
+- Digital channels are not fully optimized for acquisition
+- Suggests strong potential for scalable digital marketing growth
+
+### 🧩 Demand Concentrated Around Key Issues
+
+The highest therapy demand is concentrated around:
+
+- Depression
+- Anxiety
+- Work Stress
+
+This highlights opportunities for specialized therapy programs and focused mental health services.
+
+### 👥 Age-Based Behavioral Patterns
+
+- Younger clients show balanced preference between online and offline sessions
+- Older clients strongly prefer offline consultations
+- Indicates the need for a differentiated service model rather than a one-size-fits-all approach
+
+### 💰 Balanced Revenue Distribution
+
+- Revenue contribution is relatively balanced across psychologists
+- Reduces dependency risk on individual practitioners
+- Indicates stable operational distribution
+
+---
+
+## 💡 Business Recommendations
+
+### 📉 Improve Revenue Performance
+
+- Reassess pricing strategy for therapy services
+- Increase repeat session engagement and retention
+- Introduce follow-up and continuity programs
+
+### 🤝 Expand Doctor Referral Network
+
+- Build partnerships with hospitals and healthcare providers
+- Introduce referral collaboration programs
+- Strengthen professional healthcare relationships
+
+### 📊 Invest in Digital Marketing
+
+- Improve SEO and digital advertising campaigns
+- Expand Instagram and online awareness efforts
+- Target younger audiences through digital channels
+
+### 🧠 Launch Specialized Therapy Programs
+
+Focus on high-demand areas such as:
+
+- Anxiety management
+- Depression-focused therapy
+- Workplace stress counseling
+- Group therapy sessions
+
+### 🔄 Strengthen Hybrid Service Model
+
+- Maintain strong offline services for older clients
+- Improve online therapy experience for younger users
+- Optimize scheduling flexibility across session modes
+
+---
+
+## 🚀 Business Impact / Value
+
 This analysis helps the clinic:
 
-Identify revenue leakage and growth risks
-Optimize marketing spend and acquisition channels
-Improve service offerings based on demand
-Enable data-driven strategic planning
+- Identify revenue leakage and profitability risks
+- Optimize marketing and acquisition strategies
+- Improve therapy service planning based on demand
+- Support data-driven business growth decisions
+- Understand behavioral patterns across client segments
 
-➡️ Moves the business from reactive decisions → proactive growth strategy
+➡️ Helps shift the business from reactive decisions to proactive growth strategy.
 
-10. How to Use This Project for viewers:
+---
 
-Review the dashboard to understand key insights
-Focus on how insights translate into business decisions
 
-11. Future Improvements Scope:
-Add customer lifetime value (CLV) analysis
-Build predictive models for client retention
-Incorporate feedback/satisfaction data
-Perform cohort analysis for deeper behavioral insights
+## 🔮 Future Improvements
+
+Potential future enhancements and scope include:
+
+- Customer Lifetime Value (CLV) analysis
+- Predictive models for client retention
+- Feedback and satisfaction analysis
+- Cohort analysis for deeper behavioral insights
+
+---
+
+## 👨‍💻 Author
+
+[Manasi Gandhi](https://manasigandhiportfolio.lovable.app/)
+
+**Tableau | SQL | Excel | Dashboard Development**
